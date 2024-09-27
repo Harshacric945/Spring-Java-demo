@@ -13,6 +13,11 @@ public class TrainDetails {
 	private String stationFrom;
 	private String stationTo;
 
+	public TrainDetails() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public TrainDetails(Integer trainNumber, String trainName, Integer numberOfSeats, String stationFrom,
 			String stationTo) {
 		super();

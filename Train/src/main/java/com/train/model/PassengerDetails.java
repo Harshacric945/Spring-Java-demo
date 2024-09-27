@@ -14,6 +14,11 @@ public class PassengerDetails {
 	private String ticketFrom;
 	private String ticketTo;
 
+	public PassengerDetails() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public PassengerDetails(Integer pnrNo, String name, Integer age, Long mobileNo, String ticketFrom,
 			String ticketTo) {
 		super();
